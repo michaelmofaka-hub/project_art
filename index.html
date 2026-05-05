@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urban Artz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="explore.html">
+    <link href="gallery.html">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav_bar">
+        <h1><a href="/" class="logo-link">Urban Artz</a></h1>
+        <i class="fa-solid fa-bars" id="menu"></i>
+        <ul id="nav-menu">
+          <li><a href="/" data-section="home">Home</a></li>
+          <li><a href="/gallery" data-section="gallery">Gallery</a></li>
+          <li><a href="/explore" data-section="explore">Explore</a></li>
+          <li><a href="#artists" data-section="artists">Artists</a></li>
+          <li><a href="#contact" data-section="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"
+          >🎨 City murals, street culture, fresh energy</span
+        >
+        <h2>Urban Artz brings the streets to your screen</h2>
+        <p>
+          Discover stunning murals, graffiti, and curated urban art from
+          talented creators around the world. Celebrate street culture with a
+          community of artists and enthusiasts.
+        </p>
+        <div class="button-row">
+          <button id="explore-btn" type="button">Explore Gallery</button>
+          <button id="gallery-btn" type="button">View Collection</button>
+        </div>
+      </div>
+      <img src="logo.png.png" class="image hero-image" alt="Urban art poster" />
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-content">
+        <h3>Why Urban Artz?</h3>
+        <div class="cta-grid">
+          <div class="cta-card">
+            <div class="cta-icon">🌍</div>
+            <h4>Global Community</h4>
+            <p>Connect with artists and collectors from around the world.</p>
+          </div>
+          <div class="cta-card">
+            <div class="cta-icon">🎭</div>
+            <h4>Curated Collection</h4>
+            <p>
+              Hand-picked artworks from emerging and established urban artists.
+            </p>
+          </div>
+          <div class="cta-card">
+            <div class="cta-icon">📸</div>
+            <h4>High Quality Images</h4>
+            <p>
+              Professional photography showcasing the finest street art details.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured" id="artists">
+      <h2>Featured Artists</h2>
+      <div class="artist-grid">
+        <article class="artist-card">
+          <img src="p1.jpg" alt="Mural by Rae Styles" />
+          <h3>Rae Styles</h3>
+          <p>Bold murals with striking city energy and modern textures.</p>
+        </article>
+        <article class="artist-card">
+          <img src="h2.png" alt="Mural by Nova Riot" />
+          <h3>Nova Riot</h3>
+          <p>Colorful graffiti pieces that energize any urban landscape.</p>
+        </article>
+        <article class="artist-card">
+          <img src="h3.jpg" alt="Mural by Echo Urban" />
+          <h3>Echo Urban</h3>
+          <p>Contemporary street art inspired by music, motion, and color.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="form_submit_section" id="sign_in">
+      <form method="post" id="auth-form">
+        <h1>Sign in</h1>
+
+        <label for="username">Username</label>
+        <input
+          id="username"
+          type="text"
+          name="username"
+          placeholder="username"
+          required
+        />
+
+        <label for="password">Password</label>
+        <input
+          id="password"
+          type="password"
+          name="password"
+          placeholder="password"
+          required
+        />
+
+        <label for="confirm_password">Confirm password</label>
+        <input
+          id="confirm_password"
+          type="password"
+          name="confirm_password"
+          placeholder="confirm password"
+          required
+        />
+
+        <div class="agree_terms">
+          <label for="agree_terms">Agree to terms and conditions</label>
+          <input id="agree_terms" type="checkbox" name="agree_terms" />
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section class="more">
+      <div class="more-copy">
+        <h2>Discover the vibrant world of urban art</h2>
+        <p>
+          Explore stunning murals, graffiti, and street art from around the
+          globe. Join our community of artists and enthusiasts to share your
+          passion for urban creativity.
+        </p>
+      </div>
+      <img src="logo.png.png" class="image" alt="Urban art community" />
+    </section>
+
+    <section class="contact-section" id="contact">
+      <h2>Get in Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h4>Connect With Us</h4>
+          <p>
+            Follow us on social media to stay updated with the latest urban art
+            from around the world.
+          </p>
+          <ul>
+            <li>
+              <a href="https://instagram.com" target="_blank" rel="noopener"
+                ><i class="fa-brands fa-instagram"></i>Instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://facebook.com" target="_blank" rel="noopener"
+                ><i class="fa-brands fa-facebook"></i>Facebook</a
+              >
+            </li>
+            <li>
+              <a href="https://twitter.com" target="_blank" rel="noopener"
+                ><i class="fa-brands fa-twitter"></i>Twitter</a
+              >
+            </li>
+            <li>
+              <a href="https://youtube.com" target="_blank" rel="noopener"
+                ><i class="fa-brands fa-youtube"></i>YouTube</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="contact-cta">
+          <h4>Join Our Community</h4>
+          <p>
+            Sign up to become part of the Urban Artz family and get exclusive
+            access to new artworks and artist features.
+          </p>
+          <a href="#sign_in" id="sign-in" class="cta-button">Create Account</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="foot_section">
+      <p>&copy; 2026 Urban Artz. Celebrating street culture, one mural at a time.</p>
+      <p>Want to join the community? <a href="#sign_in" class="sign-in-link">Sign in here</a></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
